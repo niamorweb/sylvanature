@@ -118,7 +118,7 @@ header {
 
       &-cta {
         margin-top: 30px;
-        padding: 10px 30px;
+        padding: 14px 30px;
         background-color: $lightColor;
         color: $darkColor;
         width: fit-content;
@@ -149,9 +149,6 @@ header {
       }
 
       &__text {
-        &-cta {
-          padding: 12px 40px;
-        }
       }
     }
   }
@@ -204,6 +201,7 @@ header {
         }
 
         &-cta {
+          font-size: 1.2rem;
         }
       }
     }

@@ -163,7 +163,7 @@ header .hero-section__text {
 }
 header .hero-section__text-cta {
   margin-top: 30px;
-  padding: 10px 30px;
+  padding: 14px 30px;
   background-color: #d9efde;
   color: #232e26;
   width: -webkit-fit-content;
@@ -187,9 +187,6 @@ header .hero-section__text-cta:hover {
   header .hero-section__container {
     top: 30%;
     padding: 50px;
-  }
-  header .hero-section__text-cta {
-    padding: 12px 40px;
   }
 }
 @media (min-width: 1000px) {
@@ -225,6 +222,9 @@ header .hero-section__text-cta:hover {
   header .hero-section__text-body {
     margin-top: 1rem;
     line-height: 1.4;
+  }
+  header .hero-section__text-cta {
+    font-size: 1.2rem;
   }
 }
 main .services__container {
