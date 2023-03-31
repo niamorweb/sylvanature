@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav__logo-group">
+          <img src="./assets/logo_light.svg" alt="" class="nav__logo-img" />
+          <span class="nav__logo-name">Sylvanature</span>
+        </div>
+        <ul class="nav__nav-links">
+          <li><a href="#services">Mes services</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#contact">Me contacter</a></li>
+        </ul>
+        <div class="nav__mobile-container-links">
+          <ul>
+            <li><a href="#services">Mes services</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#contact">Me contacter</a></li>
+          </ul>
+        </div>
+        <div class="nav__mobile-btn">
+          <img id="open_nav_mobile" src="./assets/icons/menu.svg" alt="" />
+          <img
+            class="hidden"
+            id="close_nav_mobile"
+            src="./assets/icons/close.svg"
+            alt=""
+          />
+        </div>
+      </nav>
+
+      <section class="hero-section">
+        <img
+          src="./assets/images/hero2.jpg"
+          alt=""
+          class="hero-section__img-bg"
+        />
+        <div class="hero-section__container">
+          <div class="hero-section__text">
+            <h1 class="hero-section__text-title">
+              Syviculture et gestion forestière durable
+            </h1>
+            <p class="hero-section__text-body">
+              Êtes-vous prêt à maximiser la valeur de votre patrimoine forestier
+              tout en protégeant l'environnement ? Nous sommes là pour vous
+              aider. Bienvenue chez [nom de l'entreprise], votre partenaire de
+              confiance pour la gestion durable des forêts.
+            </p>
+            <a href="#contact" class="hero-section__text-cta">Me contacter</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="services" class="services">
+        <div class="services__container">
+          <h1>Mes services</h1>
+          <div id="services__offers"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about__container">
+          <h1 class="about__text-title">A propos</h1>
+          <div class="about__subcontainer">
+            <div class="about__text">
+              <p class="about__text-body">
+                Je suis un auto-entrepreneur passionné par la sylviculture, je
+                suis spécialisé dans les travaux d'abattage, d'élagage, de
+                débroussaillage et d'aménagement de terrains boisés. <br />
+                <br />
+                Je suis équipé de matériel professionnel et je suis formé aux
+                dernières techniques en matière de sylviculture pour garantir un
+                travail de qualité et respectueux de l'environnement. Je suis
+                heureux de pouvoir offrir mes services aux particuliers, aux
+                entreprises et aux collectivités de [votre zone géographique].
+                N'hésitez pas à me contacter pour discuter de votre projet et
+                obtenir un devis sur mesure.
+              </p>
+            </div>
+            <div class="about__images">
+              <img
+                class="about__images-secondary"
+                src="./assets/images/person.jpg"
+                alt=""
+              />
+              <img
+                class="about__images-main"
+                src="./assets/images/person2.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h1>Contact</h1>
+        <form action="">
+          <input type="text" placeholder="Votre email" name="" id="" />
+          <input type="text" placeholder="Votre nom" name="" id="" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Votre message"
+          ></textarea>
+          <input type="submit" value="Envoyer" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer__first-part">
+          <div class="footer__first-part-infos">
+            <h3>Informations</h3>
+            <ul>
+              <li>Téléphone: <b>06 12 23 31 41</b></li>
+              <li>Email: <b>email@example.com</b></li>
+              <li>Localisation: <b>Meymac</b></li>
+            </ul>
+          </div>
+          <ul class="footer__first-part-links">
+            <li><a href="">Mes services</a></li>
+            <li><a href="">A propos</a></li>
+            <li><a href="">Me contacter</a></li>
+          </ul>
+        </div>
+        <div class="footer__second-part">
+          <div class="footer__second-part-logo">
+            <img
+              src="./assets/logo_light.svg"
+              alt=""
+              class="footer__second-part-logo-img"
+            />
+            <p class="footer__logo-name">Sylvanature</p>
+          </div>
+          <p class="footer__second-part-copyrights">
+            &copy; 2023 Sylvanature. Tous droits réservés.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./services.js"></script>
+    <script src="./nav.js"></script>
+  </body>
+</html>
